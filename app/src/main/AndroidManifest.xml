@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".Test"
+            android:label="@string/title_activity_test"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".HomePage" />
-        <activity android:name=".MijnScanner"></activity>
+        <activity android:name=".MijnScanner" />
     </application>
 
 </manifest>
