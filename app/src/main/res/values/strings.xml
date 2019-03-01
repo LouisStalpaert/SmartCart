@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SmartCart</string>
+    <string name="mijn_scanner">Mijn Scanner</string>
+    <string name="mijn_gerechten">Mijn Gerechten</string>
+    <string name="mijn_boodschappen">Mijn boodschappen</string>
+    <string name="mijn_groep">Mijn groep</string>
 </resources>
