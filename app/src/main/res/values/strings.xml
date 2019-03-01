@@ -4,4 +4,8 @@
     <string name="mijn_gerechten">Mijn Gerechten</string>
     <string name="mijn_boodschappen">Mijn boodschappen</string>
     <string name="mijn_groep">Mijn groep</string>
+    <string name="title_activity_mijn_gerechten">MijnGerechten</string>
+    <string name="title_activity_mijn_boodschappenlijstje">MijnBoodschappenlijstje</string>
+    <string name="title_activity_mijn_groep">MijnGroep</string>
+    <string name="title_activity_test" />
 </resources>
