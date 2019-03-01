@@ -12,6 +12,6 @@ public class HomePage extends AppCompatActivity {
     }
 
     public Boolean Testclass(){
-        return false;
+        return true;
     }
 }
