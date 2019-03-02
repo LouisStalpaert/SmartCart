@@ -57,7 +57,7 @@ public class MijnScanner extends AppCompatActivity {
         txtResult = (TextView)findViewById(R.id.txtResult);
 
         barcodeDetector = new BarcodeDetector.Builder(this)
-                .setBarcodeFormats(Barcode.QR_CODE)
+                .setBarcodeFormats(Barcode.EAN13|Barcode.EAN8)
                 .build();
         cameraSource = new CameraSource
                 .Builder(this,barcodeDetector)
