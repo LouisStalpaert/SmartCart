@@ -10,7 +10,7 @@
     <ImageButton
         android:id="@+id/bt_MijnGerechten"
         android:layout_width="250dp"
-        android:layout_height="110dp"
+        android:layout_height="90dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -29,7 +29,7 @@
     <ImageButton
         android:id="@+id/bt_MijnScanner"
         android:layout_width="250dp"
-        android:layout_height="110dp"
+        android:layout_height="90dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -48,7 +48,7 @@
     <ImageButton
         android:id="@+id/bt_MijnGroep"
         android:layout_width="250dp"
-        android:layout_height="110dp"
+        android:layout_height="90dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -66,14 +66,17 @@
     <ImageButton
         android:id="@+id/bt_MijnBoodschappenLijstje"
         android:layout_width="250dp"
-        android:layout_height="111dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginLeft="80dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:adjustViewBounds="true"
         android:background="@null"
         android:contentDescription="@string/todo"
         android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bt_MijnGroep"
         app:srcCompat="@drawable/shoppinglist" />
@@ -81,7 +84,7 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="250dp"
+        android:layout_height="150dp"
         android:layout_marginBottom="8dp"
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
