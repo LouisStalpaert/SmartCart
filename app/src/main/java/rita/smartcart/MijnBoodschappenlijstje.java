@@ -35,6 +35,7 @@ public class MijnBoodschappenlijstje extends AppCompatActivity {
         list = new ArrayList<String>();
         arrayAdapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, list);
 
+        if (btnAdd != null){
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -44,7 +45,7 @@ public class MijnBoodschappenlijstje extends AppCompatActivity {
                 listView.setAdapter(arrayAdapter);
                 arrayAdapter.notifyDataSetChanged();
             }
-        });
+        });};
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
