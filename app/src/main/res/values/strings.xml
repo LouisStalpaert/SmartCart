@@ -13,5 +13,6 @@
     <string name="todo">TODO</string>
     <string name="result_text_default">Focus on the QR code</string>
     <string name="SmartCart"/>
+    <string name="button_add">Add</string>
 
 </resources>
