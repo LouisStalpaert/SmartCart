@@ -21,18 +21,8 @@
             android:name=".MijnGerechten"
             android:label="@string/title_activity_mijn_gerechten"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Test"
-            android:label="@string/title_activity_test"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".HomePage">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        </activity>
+        <activity android:name=".HomePage" />
         <activity android:name=".MijnScanner" />
-
     </application>
 
 </manifest>
