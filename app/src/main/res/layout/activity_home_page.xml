@@ -20,7 +20,7 @@
         android:background="#0000"
         android:contentDescription="@string/gaat_naar_pagina_met_mijn_gerechten"
         android:scaleType="fitCenter"
-        android:src="@drawable/MyRecipes"
+        android:src="@drawable/myrecipes"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,7 +43,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/MyScanner" />
+        app:srcCompat="@drawable/myscanner" />
 
     <ImageButton
         android:id="@+id/bt_MijnGroep"
@@ -61,7 +61,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bt_MijnGerechten"
-        app:srcCompat="@drawable/MyGroups" />
+        app:srcCompat="@drawable/mygroups" />
 
     <ImageButton
         android:id="@+id/bt_MijnBoodschappenLijstje"
@@ -76,7 +76,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bt_MijnGroep"
-        app:srcCompat="@drawable/ShoppingList" />
+        app:srcCompat="@drawable/shoppinglist" />
 
     <ImageView
         android:id="@+id/imageView"
