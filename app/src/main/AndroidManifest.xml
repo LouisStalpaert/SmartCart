@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="rita.smartcart">
+    
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
 
+    
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,7 +16,7 @@
         <activity
             android:name=".MijnGroep"
             android:label="@string/title_activity_mijn_groep"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MijnBoodschappenlijstje"
             android:label="@string/title_activity_mijn_boodschappenlijstje"
@@ -31,6 +35,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".MijnScanner" />
+        <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode"></meta-data>
     </application>
 
 </manifest>
