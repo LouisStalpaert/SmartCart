@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="16dp"
-    android:paddingRight="16dp"
     android:paddingTop="16dp"
+    android:paddingRight="16dp"
 
     tools:context=".MijnScanner">
 
@@ -15,9 +15,10 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:layout_centerInParent="true"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtResult"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="16dp" />
+        tools:layout_editor_absoluteX="7dp" />
 
     <TextView
         android:id="@+id/txtResult"
@@ -29,21 +30,32 @@
         android:gravity="center_horizontal"
         android:text="@string/result_text_default"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintTop_toBottomOf="@+id/cameraPreview"
         tools:layout_editor_absoluteX="16dp" />
 
     <ScrollView
-        android:layout_width="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_width="379dp"
+        android:layout_height="340dp"
+        android:layout_marginVertical="16dp"
+        android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
-        android:layout_height="match_parent">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResult"
+        app:layout_constraintVertical_bias="0.957">
+
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <EditText
                 android:id="@+id/editText3"
@@ -51,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:text=" -    Zalm          €5.95" />
         </LinearLayout>
     </ScrollView>
 
