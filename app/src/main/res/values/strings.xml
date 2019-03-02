@@ -7,5 +7,6 @@
     <string name="title_activity_mijn_gerechten">MijnGerechten</string>
     <string name="title_activity_mijn_boodschappenlijstje">MijnBoodschappenlijstje</string>
     <string name="title_activity_mijn_groep">MijnGroep</string>
-    <string name="SmartCart" />
+    <string name="voeg_lijst_toe">Boodschappenlijst toevoegen</string>
+
 </resources>
