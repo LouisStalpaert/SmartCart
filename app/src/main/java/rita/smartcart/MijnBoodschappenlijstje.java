@@ -45,7 +45,7 @@ public class MijnBoodschappenlijstje extends AppCompatActivity {
                 arrayAdapter.notifyDataSetChanged();
             }
         });
-
+/*
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,6 +53,6 @@ public class MijnBoodschappenlijstje extends AppCompatActivity {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });};
+        });};*/
     }
-}
+}}
