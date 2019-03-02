@@ -54,11 +54,11 @@ public class HomePage extends AppCompatActivity {
         });
     }
 
+
     public void openActivityMijnScanner(){
         Intent intent = new Intent(this,MijnScanner.class);
         startActivity(intent);
     }
-
     public void openActivityMijnGerechten(){
         Intent intent = new Intent(this,MijnGerechten.class);
         startActivity(intent);
