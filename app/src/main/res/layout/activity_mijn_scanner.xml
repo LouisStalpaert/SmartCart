@@ -63,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text=" -    Zalm          €5.95" />
+                android:text=" - " />
         </LinearLayout>
     </ScrollView>
 
